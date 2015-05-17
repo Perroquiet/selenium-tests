@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="registration"
+    errors="0" failures="0" hostname="" id="" package="registration" skipped="0"
+    tests="4" time="11.66" timestamp="Sun, 26 Apr 2015 08:50:12 GMT">
+  
+    <testcase name="Step 1: Check for email validity failure" time="7.651" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Check for password length failure" time="0.8630" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: Check for password match failure" time="1.980" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: Test successful registration" time="1.167" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

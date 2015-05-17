@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="admin"
+    errors="0" failures="1" hostname="" id="" package="admin" skipped="0"
+    tests="4" time="37.68" timestamp="Sun, 10 May 2015 02:42:31 GMT">
+  
+    <testcase name="Step 1: Test successful login" time="9.022" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Test Admin User List" time="3.360" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Test Admin View Subscriptions" time="8.281" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: Test Admin Add Subscriptions" time="17.01" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//*[@id=&quot;DataTables_Table_1&quot;]/tbody/*[1]/*[1]&gt; to be visible for 3000 milliseconds.">Timed out while waiting for element &lt;//*[@id=&quot;DataTables_Table_1&quot;]/tbody/*[1]/*[1]&gt; to be visible for 3000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (/usr/local/lib/node_modules/nightwatch/lib/api/commands/waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:346:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:150:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+      <failure message="Failed [equal]: (&quot;Dolpo&quot; == &quot;DolpoDB&quot;)">Failed [equal]: (&quot;Dolpo&quot; == &quot;DolpoDB&quot;): Expected &quot;DolpoDB&quot; but got: &quot;Dolpo&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:66:24)
+    at Object.&lt;anonymous&gt; (/Users/danielito/Documents/jit/jit2/tests/nightwatch/tests/dashboard/admin.js:103:27)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:351:24)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

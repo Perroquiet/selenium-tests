@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="4"
+            tests="5">
+
+  <testsuite name="profile"
+    errors="0" failures="4" hostname="" id="" package="profile" skipped="0"
+    tests="5" time="50.12" timestamp="Sat, 09 May 2015 16:50:49 GMT">
+  
+    <testcase name="Step 1: Test successful login" time="13.80" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Test Personal Profile" time="11.65" assertions="2">  <failure message="Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[3]&gt; to be visible for 1000 milliseconds.">Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[3]&gt; to be visible for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (/usr/local/lib/node_modules/nightwatch/lib/api/commands/waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: Test Personal Work" time="6.507" assertions="2">  <failure message="Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[4]&gt; to be visible for 1000 milliseconds.">Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[4]&gt; to be visible for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (/usr/local/lib/node_modules/nightwatch/lib/api/commands/waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: Test Personal Contact" time="10.71" assertions="2">  <failure message="Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[5]&gt; to be visible for 1000 milliseconds.">Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[5]&gt; to be visible for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (/usr/local/lib/node_modules/nightwatch/lib/api/commands/waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: Test Personal Bio" time="7.438" assertions="2">  <failure message="Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[6]&gt; to be visible for 1000 milliseconds.">Timed out while waiting for element &lt;//*[@id=&quot;bs-sidebar-navbar-collapse-1&quot;]/ul/li[2]/ul/li[6]&gt; to be visible for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (/usr/local/lib/node_modules/nightwatch/lib/api/commands/waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/commands/_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:299:20)
+    at HttpRequest.emit (events.js:98:17)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:15)
+    at HttpRequest.emit (events.js:106:17)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16</failure>
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

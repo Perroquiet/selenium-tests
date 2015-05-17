@@ -1,0 +1,19 @@
+{
+  "baseUrl" : "http://localhost:3000/",
+  
+  "registration" : {
+  	"url" : "accounts/register",
+
+  	"emailField" : "#at-field-email",
+  	"passwordField" : "#at-field-password",
+  	"passwordAgainField" : "#at-field-password_again",
+
+  	"email" : "superuser@jit.com",
+  	"password" : "password",
+  	
+  	"testEmail" : "jit_test",
+  	"testPasswordLength" : "dkfj",
+  	"testPasswordMatch1" : "2lkj11l11",
+  	"testPasswordMatch2" : "2lkj12l11"
+  }
+}

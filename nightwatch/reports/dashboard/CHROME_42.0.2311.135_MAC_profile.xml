@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="profile"
+    errors="0" failures="0" hostname="" id="" package="profile" skipped="0"
+    tests="5" time="58.44" timestamp="Sun, 10 May 2015 00:57:01 GMT">
+  
+    <testcase name="Step 1: Test successful login" time="16.09" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Test Personal Profile" time="18.68" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: Test Personal Work" time="6.254" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: Test Personal Contact" time="10.49" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: Test Personal Bio" time="6.916" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
